@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1A265E1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */; };
+		0B1A26601D65EDBC0010CE40 /* YJBaseNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */; };
+		0B1A26621D65EE030010CE40 /* YJBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */; };
+		0B1A26641D65EE4B0010CE40 /* YJMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */; };
+		0B1A26661D65EE960010CE40 /* YJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */; };
+		0B1A26681D65EEAB0010CE40 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */; };
+		0B1A266A1D65EEC20010CE40 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */; };
+		0B1A266C1D65EED20010CE40 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */; };
 		397A86671D655D610063329A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A86661D655D610063329A /* AppDelegate.swift */; };
 		397A866E1D655D610063329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397A866D1D655D610063329A /* Assets.xcassets */; };
 		397A86711D655D610063329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397A866F1D655D610063329A /* LaunchScreen.storyboard */; };
@@ -32,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTabBarViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseNaviViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMainViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMessageViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAttentionViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = SOURCE_ROOT; };
 		397A86631D655D610063329A /* YJWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A86661D655D610063329A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		397A866D1D655D610063329A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -149,6 +165,7 @@
 		397A86961D657C440063329A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +187,9 @@
 		397A86991D657C440063329A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */,
+				0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */,
+				0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -194,6 +214,7 @@
 		397A869C1D657C440063329A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +246,7 @@
 		397A86A01D657C440063329A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +278,7 @@
 		397A86A41D657C440063329A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,6 +310,7 @@
 		397A86A81D657C440063329A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -449,7 +473,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1A266C1D65EED20010CE40 /* YJMineViewController.swift in Sources */,
+				0B1A265E1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift in Sources */,
+				0B1A26601D65EDBC0010CE40 /* YJBaseNaviViewController.swift in Sources */,
+				0B1A266A1D65EEC20010CE40 /* YJAttentionViewController.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
+				0B1A26621D65EE030010CE40 /* YJBaseTableViewController.swift in Sources */,
+				0B1A26641D65EE4B0010CE40 /* YJMainViewController.swift in Sources */,
+				0B1A26661D65EE960010CE40 /* YJMessageViewController.swift in Sources */,
+				0B1A26681D65EEAB0010CE40 /* YJComposeMessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
