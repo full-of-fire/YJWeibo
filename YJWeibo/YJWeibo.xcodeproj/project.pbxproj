@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B1A265E1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */; };
-		0B1A26601D65EDBC0010CE40 /* YJBaseNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */; };
-		0B1A26621D65EE030010CE40 /* YJBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */; };
-		0B1A26641D65EE4B0010CE40 /* YJMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */; };
-		0B1A26661D65EE960010CE40 /* YJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */; };
-		0B1A26681D65EEAB0010CE40 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */; };
-		0B1A266A1D65EEC20010CE40 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */; };
-		0B1A266C1D65EED20010CE40 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */; };
+		0B2B433C1D66162100AE7674 /* YJBaseNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43391D66162100AE7674 /* YJBaseNaviViewController.swift */; };
+		0B2B433D1D66162100AE7674 /* YJBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B433A1D66162100AE7674 /* YJBaseTabBarViewController.swift */; };
+		0B2B433E1D66162100AE7674 /* YJBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B433B1D66162100AE7674 /* YJBaseTableViewController.swift */; };
+		0B2B43401D66163B00AE7674 /* YJMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B433F1D66163B00AE7674 /* YJMainViewController.swift */; };
+		0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43411D66164800AE7674 /* YJMessageViewController.swift */; };
+		0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */; };
+		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
+		0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */; };
 		397A86671D655D610063329A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A86661D655D610063329A /* AppDelegate.swift */; };
 		397A866E1D655D610063329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397A866D1D655D610063329A /* Assets.xcassets */; };
 		397A86711D655D610063329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397A866F1D655D610063329A /* LaunchScreen.storyboard */; };
@@ -40,14 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTabBarViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseNaviViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMainViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMessageViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAttentionViewController.swift; sourceTree = SOURCE_ROOT; };
-		0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = SOURCE_ROOT; };
+		0B2B43391D66162100AE7674 /* YJBaseNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseNaviViewController.swift; sourceTree = "<group>"; };
+		0B2B433A1D66162100AE7674 /* YJBaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTabBarViewController.swift; sourceTree = "<group>"; };
+		0B2B433B1D66162100AE7674 /* YJBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJBaseTableViewController.swift; sourceTree = "<group>"; };
+		0B2B433F1D66163B00AE7674 /* YJMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMainViewController.swift; sourceTree = "<group>"; };
+		0B2B43411D66164800AE7674 /* YJMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMessageViewController.swift; sourceTree = "<group>"; };
+		0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = "<group>"; };
+		0B2B43451D6616A200AE7674 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = "<group>"; };
+		0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAttentionViewController.swift; sourceTree = "<group>"; };
 		397A86631D655D610063329A /* YJWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A86661D655D610063329A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		397A866D1D655D610063329A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +86,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2B43201D6615AA00AE7674 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43381D6615AA00AE7674 /* Tools */,
+				0B2B43371D6615AA00AE7674 /* Third */,
+				0B2B43251D6615AA00AE7674 /* Base */,
+				0B2B43261D6615AA00AE7674 /* Catagory */,
+				0B2B432B1D6615AA00AE7674 /* Main */,
+				0B2B432F1D6615AA00AE7674 /* Message */,
+				0B2B43271D6615AA00AE7674 /* ComposeMessage */,
+				0B2B43211D6615AA00AE7674 /* Attention */,
+				0B2B43331D6615AA00AE7674 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0B2B43211D6615AA00AE7674 /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43221D6615AA00AE7674 /* Controllers */,
+				0B2B43231D6615AA00AE7674 /* Models */,
+				0B2B43241D6615AA00AE7674 /* Views */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		0B2B43221D6615AA00AE7674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B43231D6615AA00AE7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B2B43241D6615AA00AE7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2B43251D6615AA00AE7674 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43391D66162100AE7674 /* YJBaseNaviViewController.swift */,
+				0B2B433A1D66162100AE7674 /* YJBaseTabBarViewController.swift */,
+				0B2B433B1D66162100AE7674 /* YJBaseTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0B2B43261D6615AA00AE7674 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		0B2B43271D6615AA00AE7674 /* ComposeMessage */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43281D6615AA00AE7674 /* Controllers */,
+				0B2B43291D6615AA00AE7674 /* Models */,
+				0B2B432A1D6615AA00AE7674 /* Views */,
+			);
+			path = ComposeMessage;
+			sourceTree = "<group>";
+		};
+		0B2B43281D6615AA00AE7674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B43291D6615AA00AE7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B2B432A1D6615AA00AE7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2B432B1D6615AA00AE7674 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B432C1D6615AA00AE7674 /* Controllers */,
+				0B2B432D1D6615AA00AE7674 /* Models */,
+				0B2B432E1D6615AA00AE7674 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0B2B432C1D6615AA00AE7674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B433F1D66163B00AE7674 /* YJMainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B432D1D6615AA00AE7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B2B432E1D6615AA00AE7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2B432F1D6615AA00AE7674 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43301D6615AA00AE7674 /* Controllers */,
+				0B2B43311D6615AA00AE7674 /* Models */,
+				0B2B43321D6615AA00AE7674 /* Views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0B2B43301D6615AA00AE7674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43411D66164800AE7674 /* YJMessageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B43311D6615AA00AE7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B2B43321D6615AA00AE7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2B43331D6615AA00AE7674 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43341D6615AA00AE7674 /* Controllers */,
+				0B2B43351D6615AA00AE7674 /* Models */,
+				0B2B43361D6615AA00AE7674 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0B2B43341D6615AA00AE7674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B43451D6616A200AE7674 /* YJMineViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B2B43351D6615AA00AE7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B2B43361D6615AA00AE7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B2B43371D6615AA00AE7674 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		0B2B43381D6615AA00AE7674 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		397A865A1D655D610063329A = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				397A86661D655D610063329A /* AppDelegate.swift */,
-				397A86941D657C440063329A /* Classes */,
+				0B2B43201D6615AA00AE7674 /* Classes */,
 				397A866D1D655D610063329A /* Assets.xcassets */,
 				397A866F1D655D610063329A /* LaunchScreen.storyboard */,
 				397A86721D655D610063329A /* Info.plist */,
@@ -134,213 +341,6 @@
 				397A86881D655D610063329A /* Info.plist */,
 			);
 			path = YJWeiboUITests;
-			sourceTree = "<group>";
-		};
-		397A86941D657C440063329A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				397A86991D657C440063329A /* Base */,
-				397A86AC1D657C440063329A /* Tools */,
-				397A86AB1D657C440063329A /* Third */,
-				397A869A1D657C440063329A /* Catagory */,
-				397A869F1D657C440063329A /* Main */,
-				397A86A31D657C440063329A /* Message */,
-				397A869B1D657C440063329A /* ComposeMessage */,
-				397A86951D657C440063329A /* Attention */,
-				397A86A71D657C440063329A /* Mine */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		397A86951D657C440063329A /* Attention */ = {
-			isa = PBXGroup;
-			children = (
-				397A86961D657C440063329A /* Controllers */,
-				397A86971D657C440063329A /* Models */,
-				397A86981D657C440063329A /* Views */,
-			);
-			path = Attention;
-			sourceTree = "<group>";
-		};
-		397A86961D657C440063329A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A26691D65EEC20010CE40 /* YJAttentionViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		397A86971D657C440063329A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		397A86981D657C440063329A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		397A86991D657C440063329A /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A265D1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift */,
-				0B1A265F1D65EDBC0010CE40 /* YJBaseNaviViewController.swift */,
-				0B1A26611D65EE030010CE40 /* YJBaseTableViewController.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		397A869A1D657C440063329A /* Catagory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Catagory;
-			sourceTree = "<group>";
-		};
-		397A869B1D657C440063329A /* ComposeMessage */ = {
-			isa = PBXGroup;
-			children = (
-				397A869C1D657C440063329A /* Controllers */,
-				397A869D1D657C440063329A /* Models */,
-				397A869E1D657C440063329A /* Views */,
-			);
-			path = ComposeMessage;
-			sourceTree = "<group>";
-		};
-		397A869C1D657C440063329A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A26671D65EEAB0010CE40 /* YJComposeMessageViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		397A869D1D657C440063329A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		397A869E1D657C440063329A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		397A869F1D657C440063329A /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				397A86A01D657C440063329A /* Controllers */,
-				397A86A11D657C440063329A /* Models */,
-				397A86A21D657C440063329A /* Views */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		397A86A01D657C440063329A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A26631D65EE4B0010CE40 /* YJMainViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		397A86A11D657C440063329A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		397A86A21D657C440063329A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		397A86A31D657C440063329A /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				397A86A41D657C440063329A /* Controllers */,
-				397A86A51D657C440063329A /* Models */,
-				397A86A61D657C440063329A /* Views */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		397A86A41D657C440063329A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A26651D65EE960010CE40 /* YJMessageViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		397A86A51D657C440063329A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		397A86A61D657C440063329A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		397A86A71D657C440063329A /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				397A86A81D657C440063329A /* Controllers */,
-				397A86A91D657C440063329A /* Models */,
-				397A86AA1D657C440063329A /* Views */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		397A86A81D657C440063329A /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				0B1A266B1D65EED20010CE40 /* YJMineViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		397A86A91D657C440063329A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		397A86AA1D657C440063329A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		397A86AB1D657C440063329A /* Third */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Third;
-			sourceTree = "<group>";
-		};
-		397A86AC1D657C440063329A /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,15 +473,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B1A266C1D65EED20010CE40 /* YJMineViewController.swift in Sources */,
-				0B1A265E1D65ED8B0010CE40 /* YJBaseTabBarViewController.swift in Sources */,
-				0B1A26601D65EDBC0010CE40 /* YJBaseNaviViewController.swift in Sources */,
-				0B1A266A1D65EEC20010CE40 /* YJAttentionViewController.swift in Sources */,
+				0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */,
+				0B2B433C1D66162100AE7674 /* YJBaseNaviViewController.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
-				0B1A26621D65EE030010CE40 /* YJBaseTableViewController.swift in Sources */,
-				0B1A26641D65EE4B0010CE40 /* YJMainViewController.swift in Sources */,
-				0B1A26661D65EE960010CE40 /* YJMessageViewController.swift in Sources */,
-				0B1A26681D65EEAB0010CE40 /* YJComposeMessageViewController.swift in Sources */,
+				0B2B433D1D66162100AE7674 /* YJBaseTabBarViewController.swift in Sources */,
+				0B2B433E1D66162100AE7674 /* YJBaseTableViewController.swift in Sources */,
+				0B2B43401D66163B00AE7674 /* YJMainViewController.swift in Sources */,
+				0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */,
+				0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */,
+				0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
