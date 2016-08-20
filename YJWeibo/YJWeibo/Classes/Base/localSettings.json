@@ -1,0 +1,29 @@
+[{
+"vcName" : "YJMainViewController",
+"title" :"首页",
+"imageName" : "tabbar_home"
+ },
+
+{
+"vcName" : "YJMessageViewController",
+"title" :"消息",
+"imageName" : "tabbar_message_center"
+ },
+ 
+ {
+ "vcName" : "YJComposeMessageViewController",
+ "title" :"",
+ "imageName" : ""
+ },
+ 
+{
+"vcName" : "YJAttentionViewController",
+"title" :"发现",
+"imageName" : "tabbar_discover"
+ },
+{
+"vcName" : "YJMineViewController",
+"title" :"我的",
+"imageName" : "tabbar_profile"
+ }
+]
