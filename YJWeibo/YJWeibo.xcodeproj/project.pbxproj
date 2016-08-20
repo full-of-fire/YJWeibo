@@ -14,6 +14,9 @@
 		0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43411D66164800AE7674 /* YJMessageViewController.swift */; };
 		0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */; };
 		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
+		0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */; };
+		0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */; };
+		0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */; };
 		0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */; };
 		0BE7CEF41D661986004C3F92 /* localSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF31D661986004C3F92 /* localSettings.json */; };
 		18A35EC5E045850B5CC0ECCA /* Pods_YJWeiboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADF866C31BC1E44DF7136C /* Pods_YJWeiboUITests.framework */; };
@@ -51,6 +54,9 @@
 		0B2B43411D66164800AE7674 /* YJMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43451D6616A200AE7674 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = "<group>"; };
+		0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMainVisitorView.swift; path = YJWeibo/Classes/Base/YJMainVisitorView.swift; sourceTree = SOURCE_ROOT; };
+		0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMessageVisitorView.swift; path = YJWeibo/Classes/Base/YJMessageVisitorView.swift; sourceTree = SOURCE_ROOT; };
+		0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJMessageVisitorView.xib; path = YJWeibo/Classes/Base/YJMessageVisitorView.xib; sourceTree = SOURCE_ROOT; };
 		0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAttentionViewController.swift; sourceTree = "<group>"; };
 		0BE7CEF31D661986004C3F92 /* localSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localSettings.json; sourceTree = "<group>"; };
 		397A86631D655D610063329A /* YJWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +235,7 @@
 		0B2B432E1D6615AA00AE7674 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,6 +268,8 @@
 		0B2B43321D6615AA00AE7674 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */,
+				0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -498,6 +507,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */,
 				397A86711D655D610063329A /* LaunchScreen.storyboard in Resources */,
 				397A866E1D655D610063329A /* Assets.xcassets in Resources */,
 				0BE7CEF41D661986004C3F92 /* localSettings.json in Resources */,
@@ -651,10 +661,12 @@
 				0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */,
 				0B2B433C1D66162100AE7674 /* YJBaseNaviViewController.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
+				0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */,
 				0B2B433D1D66162100AE7674 /* YJBaseTabBarViewController.swift in Sources */,
 				0B2B433E1D66162100AE7674 /* YJBaseTableViewController.swift in Sources */,
 				0B2B43401D66163B00AE7674 /* YJMainViewController.swift in Sources */,
 				0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */,
+				0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */,
 				0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */,
 				0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */,
 			);

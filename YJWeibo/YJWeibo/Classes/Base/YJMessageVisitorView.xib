@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YJMessageVisitorView" customModule="YJWeibo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="353"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_image_message" translatesAutoresizingMaskIntoConstraints="NO" id="Dg3-Vk-9RT">
+                    <rect key="frame" x="112" y="126" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="qcf-PC-oHL"/>
+                        <constraint firstAttribute="height" constant="100" id="xlM-ka-awo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录后，别人评论你的微薄，给你发消息，都会在这里受到通知" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jil-mO-M0H">
+                    <rect key="frame" x="10" y="236" width="304" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Wgw-FW-YrM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.73585162530000003" green="0.73585162530000003" blue="0.73585162530000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBS-a8-2dB">
+                    <rect key="frame" x="50" y="290.5" width="87" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mcR-95-08k"/>
+                    </constraints>
+                    <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="loginAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="TKL-fE-Zqm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaU-Af-Cf6">
+                    <rect key="frame" x="187" y="290.5" width="87" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="rSW-iU-ycl"/>
+                    </constraints>
+                    <state key="normal" title="注册"/>
+                    <connections>
+                        <action selector="registerAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="6ie-D0-Pnl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Dg3-Vk-9RT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9ME-Ar-bSG"/>
+                <constraint firstItem="AaU-Af-Cf6" firstAttribute="height" secondItem="SBS-a8-2dB" secondAttribute="height" id="BAa-8k-EB7"/>
+                <constraint firstAttribute="trailing" secondItem="jil-mO-M0H" secondAttribute="trailing" constant="10" id="CKu-s9-jiT"/>
+                <constraint firstItem="SBS-a8-2dB" firstAttribute="top" secondItem="jil-mO-M0H" secondAttribute="bottom" constant="10" id="Ds5-Vj-ljY"/>
+                <constraint firstItem="jil-mO-M0H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="KP6-U0-Dwp"/>
+                <constraint firstItem="AaU-Af-Cf6" firstAttribute="leading" secondItem="SBS-a8-2dB" secondAttribute="trailing" constant="50" id="Oix-7Z-JGW"/>
+                <constraint firstAttribute="trailing" secondItem="AaU-Af-Cf6" secondAttribute="trailing" constant="50" id="TJJ-0E-87k"/>
+                <constraint firstItem="SBS-a8-2dB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="XXf-nA-3KP"/>
+                <constraint firstItem="Dg3-Vk-9RT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="anT-MG-uw0"/>
+                <constraint firstItem="jil-mO-M0H" firstAttribute="top" secondItem="Dg3-Vk-9RT" secondAttribute="bottom" constant="10" id="hRA-pa-2jg"/>
+                <constraint firstItem="AaU-Af-Cf6" firstAttribute="top" secondItem="jil-mO-M0H" secondAttribute="bottom" constant="10" id="ojQ-z4-pj0"/>
+                <constraint firstItem="AaU-Af-Cf6" firstAttribute="width" secondItem="SBS-a8-2dB" secondAttribute="width" id="wma-Cq-wwd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="282" y="262.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="visitordiscover_image_message" width="175" height="175"/>
+    </resources>
+</document>
