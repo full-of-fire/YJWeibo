@@ -16,11 +16,14 @@
 		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
 		0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */; };
 		0BE7CEF41D661986004C3F92 /* localSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF31D661986004C3F92 /* localSettings.json */; };
+		18A35EC5E045850B5CC0ECCA /* Pods_YJWeiboUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADF866C31BC1E44DF7136C /* Pods_YJWeiboUITests.framework */; };
 		397A86671D655D610063329A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A86661D655D610063329A /* AppDelegate.swift */; };
 		397A866E1D655D610063329A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397A866D1D655D610063329A /* Assets.xcassets */; };
 		397A86711D655D610063329A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397A866F1D655D610063329A /* LaunchScreen.storyboard */; };
 		397A867C1D655D610063329A /* YJWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A867B1D655D610063329A /* YJWeiboTests.swift */; };
 		397A86871D655D610063329A /* YJWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A86861D655D610063329A /* YJWeiboUITests.swift */; };
+		81AAD88E6E4CAD8658FEF991 /* Pods_YJWeiboTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4888718F4B89422F8E9FBDB /* Pods_YJWeiboTests.framework */; };
+		D86C579D0D7A9FB6D4EFA676 /* Pods_YJWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4898E6E2C086739FF486535A /* Pods_YJWeibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,15 @@
 		397A86821D655D610063329A /* YJWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397A86861D655D610063329A /* YJWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJWeiboUITests.swift; sourceTree = "<group>"; };
 		397A86881D655D610063329A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4898E6E2C086739FF486535A /* Pods_YJWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8701DB10DDB2C86A66763F33 /* Pods-YJWeiboUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeiboUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeiboUITests/Pods-YJWeiboUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2ADF866C31BC1E44DF7136C /* Pods_YJWeiboUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJWeiboUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06465816377F8ECA53BE10D /* Pods-YJWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeibo/Pods-YJWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		C1D2E7505DAE3886DFF8C465 /* Pods-YJWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeibo/Pods-YJWeibo.debug.xcconfig"; sourceTree = "<group>"; };
+		C4888718F4B89422F8E9FBDB /* Pods_YJWeiboTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJWeiboTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41946615DB846C4F6F2F5A9 /* Pods-YJWeiboTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeiboTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeiboTests/Pods-YJWeiboTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F43DC9A6C3747836B4B2109D /* Pods-YJWeiboUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeiboUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeiboUITests/Pods-YJWeiboUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A6F5364F79806C2DB4BA58 /* Pods-YJWeiboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJWeiboTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJWeiboTests/Pods-YJWeiboTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86C579D0D7A9FB6D4EFA676 /* Pods_YJWeibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AAD88E6E4CAD8658FEF991 /* Pods_YJWeiboTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A35EC5E045850B5CC0ECCA /* Pods_YJWeiboUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +318,8 @@
 				397A867A1D655D610063329A /* YJWeiboTests */,
 				397A86851D655D610063329A /* YJWeiboUITests */,
 				397A86641D655D610063329A /* Products */,
+				9D1C65E010C8ACECFA4EEFA9 /* Pods */,
+				7C2A22FD0CBF89749B9ABE04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -346,6 +363,29 @@
 			path = YJWeiboUITests;
 			sourceTree = "<group>";
 		};
+		7C2A22FD0CBF89749B9ABE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4898E6E2C086739FF486535A /* Pods_YJWeibo.framework */,
+				C4888718F4B89422F8E9FBDB /* Pods_YJWeiboTests.framework */,
+				B2ADF866C31BC1E44DF7136C /* Pods_YJWeiboUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D1C65E010C8ACECFA4EEFA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2E7505DAE3886DFF8C465 /* Pods-YJWeibo.debug.xcconfig */,
+				C06465816377F8ECA53BE10D /* Pods-YJWeibo.release.xcconfig */,
+				F41946615DB846C4F6F2F5A9 /* Pods-YJWeiboTests.debug.xcconfig */,
+				F5A6F5364F79806C2DB4BA58 /* Pods-YJWeiboTests.release.xcconfig */,
+				F43DC9A6C3747836B4B2109D /* Pods-YJWeiboUITests.debug.xcconfig */,
+				8701DB10DDB2C86A66763F33 /* Pods-YJWeiboUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397A868B1D655D610063329A /* Build configuration list for PBXNativeTarget "YJWeibo" */;
 			buildPhases = (
+				530A6D16724BAD101B1CA602 /* [CP] Check Pods Manifest.lock */,
 				397A865F1D655D610063329A /* Sources */,
 				397A86601D655D610063329A /* Frameworks */,
 				397A86611D655D610063329A /* Resources */,
+				A8DB80FD9198DFE45035D850 /* [CP] Embed Pods Frameworks */,
+				0E66FE1BE1C9C558B9C07AEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397A868E1D655D610063329A /* Build configuration list for PBXNativeTarget "YJWeiboTests" */;
 			buildPhases = (
+				1C87A360B79CF4FE11A5983B /* [CP] Check Pods Manifest.lock */,
 				397A86731D655D610063329A /* Sources */,
 				397A86741D655D610063329A /* Frameworks */,
 				397A86751D655D610063329A /* Resources */,
+				645A5D30E30D1B2964257DA7 /* [CP] Embed Pods Frameworks */,
+				1E9964DF0DFACBEFB7A88252 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,9 +434,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397A86911D655D610063329A /* Build configuration list for PBXNativeTarget "YJWeiboUITests" */;
 			buildPhases = (
+				68E59F3F2C4AD2FCEE13EEF3 /* [CP] Check Pods Manifest.lock */,
 				397A867E1D655D610063329A /* Sources */,
 				397A867F1D655D610063329A /* Frameworks */,
 				397A86801D655D610063329A /* Resources */,
+				52E2B515811DFA6854D13DD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -471,6 +519,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E66FE1BE1C9C558B9C07AEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJWeibo/Pods-YJWeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C87A360B79CF4FE11A5983B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E9964DF0DFACBEFB7A88252 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJWeiboTests/Pods-YJWeiboTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E2B515811DFA6854D13DD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJWeiboUITests/Pods-YJWeiboUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		530A6D16724BAD101B1CA602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		645A5D30E30D1B2964257DA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJWeiboTests/Pods-YJWeiboTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E59F3F2C4AD2FCEE13EEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8DB80FD9198DFE45035D850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJWeibo/Pods-YJWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		397A865F1D655D610063329A /* Sources */ = {
@@ -617,6 +788,7 @@
 		};
 		397A868C1D655D610063329A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D2E7505DAE3886DFF8C465 /* Pods-YJWeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJWeibo/Info.plist;
@@ -628,6 +800,7 @@
 		};
 		397A868D1D655D610063329A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06465816377F8ECA53BE10D /* Pods-YJWeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJWeibo/Info.plist;
@@ -639,6 +812,7 @@
 		};
 		397A868F1D655D610063329A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41946615DB846C4F6F2F5A9 /* Pods-YJWeiboTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YJWeiboTests/Info.plist;
@@ -651,6 +825,7 @@
 		};
 		397A86901D655D610063329A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A6F5364F79806C2DB4BA58 /* Pods-YJWeiboTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YJWeiboTests/Info.plist;
@@ -663,6 +838,7 @@
 		};
 		397A86921D655D610063329A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43DC9A6C3747836B4B2109D /* Pods-YJWeiboUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YJWeiboUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -674,6 +850,7 @@
 		};
 		397A86931D655D610063329A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8701DB10DDB2C86A66763F33 /* Pods-YJWeiboUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YJWeiboUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
