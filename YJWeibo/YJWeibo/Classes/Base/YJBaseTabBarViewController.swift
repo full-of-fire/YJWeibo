@@ -140,9 +140,7 @@ class YJBaseTabBarViewController: UITabBarController {
         
         
         addChildViewController(childVC, title: title, imageName: imageName)
-        
-        
-        
+    
         
     }
     

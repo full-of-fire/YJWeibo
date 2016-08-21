@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
+        
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        
         window = UIWindow()
         window?.bounds = UIScreen.mainScreen().bounds
         

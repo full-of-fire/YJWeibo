@@ -44,6 +44,12 @@ class YJMainVisitorView: UIView {
        
     }
     
+    // 如果是自定义xib view必须实现这个方法
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
     
     //MARK: 布局
     override func layoutSubviews() {
@@ -102,11 +108,7 @@ class YJMainVisitorView: UIView {
     }
     
     
-    // 如果是自定义xib view必须实现这个方法
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
+   
     //MARK: 懒加载
     //背景图
     private lazy var rorationView:UIImageView = {
