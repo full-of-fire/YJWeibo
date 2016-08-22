@@ -70,14 +70,23 @@
                                     <constraint firstItem="15H-yh-aJO" firstAttribute="leading" secondItem="EN9-hX-0o8" secondAttribute="leading" id="ues-R3-SxF"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3I-BJ-b5q">
+                                <rect key="frame" x="270" y="475" width="60" height="30"/>
+                                <state key="normal" title="我的名片"/>
+                                <connections>
+                                    <action selector="showMyCard:" destination="792-5D-vPR" eventType="touchUpInside" id="hGL-Tp-igP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="EN9-hX-0o8" firstAttribute="centerX" secondItem="7HA-6j-WMV" secondAttribute="centerX" id="4er-M0-xNg"/>
                             <constraint firstItem="EN9-hX-0o8" firstAttribute="centerY" secondItem="7HA-6j-WMV" secondAttribute="centerY" id="VQZ-t1-bQt"/>
                             <constraint firstAttribute="trailing" secondItem="prE-nr-3fW" secondAttribute="trailing" id="XRI-lv-rAV"/>
+                            <constraint firstItem="d3I-BJ-b5q" firstAttribute="top" secondItem="EN9-hX-0o8" secondAttribute="bottom" constant="25" id="c3b-LK-LT2"/>
                             <constraint firstItem="prE-nr-3fW" firstAttribute="leading" secondItem="7HA-6j-WMV" secondAttribute="leading" id="fRA-1k-eMM"/>
                             <constraint firstItem="jZu-Ns-kZI" firstAttribute="top" secondItem="prE-nr-3fW" secondAttribute="bottom" id="kZa-RH-M7Y"/>
+                            <constraint firstItem="d3I-BJ-b5q" firstAttribute="centerX" secondItem="7HA-6j-WMV" secondAttribute="centerX" id="mhi-nT-9GA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Kst-Iw-tAT">

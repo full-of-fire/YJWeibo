@@ -14,6 +14,7 @@
 		0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43411D66164800AE7674 /* YJMessageViewController.swift */; };
 		0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */; };
 		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
+		0B384C921D6B439100060F4A /* YJQRCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B384C911D6B439100060F4A /* YJQRCardViewController.swift */; };
 		0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */; };
 		0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */; };
 		0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */; };
@@ -58,6 +59,7 @@
 		0B2B43411D66164800AE7674 /* YJMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43451D6616A200AE7674 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = "<group>"; };
+		0B384C911D6B439100060F4A /* YJQRCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJQRCardViewController.swift; sourceTree = "<group>"; };
 		0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMainVisitorView.swift; path = YJWeibo/Classes/Base/YJMainVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMessageVisitorView.swift; path = YJWeibo/Classes/Base/YJMessageVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJMessageVisitorView.xib; path = YJWeibo/Classes/Base/YJMessageVisitorView.xib; sourceTree = SOURCE_ROOT; };
@@ -232,6 +234,7 @@
 				0B2B433F1D66163B00AE7674 /* YJMainViewController.swift */,
 				0BF27E921D69A0C10085F55A /* YJQCRScannerViewController.storyboard */,
 				0BF27E941D69A1420085F55A /* YJQCRScannerViewController.swift */,
+				0B384C911D6B439100060F4A /* YJQRCardViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -686,6 +689,7 @@
 				0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */,
 				0BF27E951D69A1420085F55A /* YJQCRScannerViewController.swift in Sources */,
 				0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */,
+				0B384C921D6B439100060F4A /* YJQRCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
