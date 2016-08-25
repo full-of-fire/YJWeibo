@@ -11,7 +11,7 @@ import UIKit
 class YJMainViewController: YJBaseTableViewController,YJMainVisitorViewDelegate {
 
     // 是否登录
-    var login = true
+    var login = false
     
     override func loadView() {
          super.loadView()

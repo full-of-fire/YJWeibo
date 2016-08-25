@@ -10,33 +10,64 @@ import UIKit
 
 class YJMessageViewController: YJBaseTableViewController {
 
-     var login = false
-        
-    override func loadView() {
-         super.loadView()
-        
-        if !false {
-          
-            let messageVisitorView = YJMessageVisitorView.messageVisitorView()
-            messageVisitorView.bounds = view.bounds
-        
-            
-            
-            view = messageVisitorView
-        }
-        
-        
-        
-        
-        
-    }
+    
+    var account:YJUserAccount? =  YJUserAccount.loadAccount()
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        if let res = account {
+            
+            
+            if res.loginSuccess {
+                
+                super.loadView()
+            }
+            else{
+                
+                visitorView.frame = view.bounds
+                view = visitorView
+            }
+            
+        }else{
+            
+            visitorView.frame = view.bounds
+            view = visitorView
+            
+        }
     }
+    
+    
+    
+    //M
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0;
+    }
+    
+  
 
+    
+    //MARK:懒加载
+   lazy  var visitorView:YJMessageVisitorView = {
+    
+    
+        let messageVisitorView = YJMessageVisitorView.messageVisitorView()
+    
+        messageVisitorView.hidden = false
+            messageVisitorView.loginClickBlock = {
+            
+            print("登录跳转啊")
+            let loginVC = YJLoginViewController()
+            
+        self.navigationController!.pushViewController(loginVC, animated: true)
+            
+        }
+       
+        return messageVisitorView
+    }()
    
 
 }

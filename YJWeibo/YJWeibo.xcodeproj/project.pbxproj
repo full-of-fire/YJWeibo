@@ -15,6 +15,8 @@
 		0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */; };
 		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
 		0B384C921D6B439100060F4A /* YJQRCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B384C911D6B439100060F4A /* YJQRCardViewController.swift */; };
+		0B9912F71D6DD1B600BAC781 /* YJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */; };
+		0B9912F91D6DF77100BAC781 /* YJUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */; };
 		0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */; };
 		0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */; };
 		0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */; };
@@ -60,6 +62,8 @@
 		0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43451D6616A200AE7674 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = "<group>"; };
 		0B384C911D6B439100060F4A /* YJQRCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJQRCardViewController.swift; sourceTree = "<group>"; };
+		0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJLoginViewController.swift; sourceTree = "<group>"; };
+		0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJUserAccount.swift; path = YJWeibo/Classes/Main/Controllers/YJUserAccount.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMainVisitorView.swift; path = YJWeibo/Classes/Base/YJMainVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMessageVisitorView.swift; path = YJWeibo/Classes/Base/YJMessageVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJMessageVisitorView.xib; path = YJWeibo/Classes/Base/YJMessageVisitorView.xib; sourceTree = SOURCE_ROOT; };
@@ -235,6 +239,7 @@
 				0BF27E921D69A0C10085F55A /* YJQCRScannerViewController.storyboard */,
 				0BF27E941D69A1420085F55A /* YJQCRScannerViewController.swift */,
 				0B384C911D6B439100060F4A /* YJQRCardViewController.swift */,
+				0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 		0B2B432D1D6615AA00AE7674 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -676,7 +682,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */,
+				0B9912F71D6DD1B600BAC781 /* YJLoginViewController.swift in Sources */,
 				0B2B433C1D66162100AE7674 /* YJBaseNaviViewController.swift in Sources */,
+				0B9912F91D6DF77100BAC781 /* YJUserAccount.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
 				0BF27E8D1D699AE40085F55A /* YJTitleButton.swift in Sources */,
 				0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */,
@@ -827,7 +835,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YJWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aimeishuju.YJWeibo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangjie.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -840,7 +848,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YJWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aimeishuju.YJWeibo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangjie.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
