@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Alamofire
 
+let resuesID = "YJStatusCell"  // 复用微博cellID
 class YJMainViewController: YJBaseTableViewController,YJMainVisitorViewDelegate {
 
     // 是否登录
-    var login = false
+    var login = true
     
+    var statusArry:[YJStatus] = [] // 微博数组
+    
+  
     override func loadView() {
          super.loadView()
         
@@ -44,8 +49,21 @@ class YJMainViewController: YJBaseTableViewController,YJMainVisitorViewDelegate 
         // 设置导航条
         setUpNavi()
         
+        // 注册cell
+        tableView.registerClass(YJStatusCell.self, forCellReuseIdentifier: resuesID)
+        
+        
+        // 请求数据
+        loadNewData()
+        
+       
+    
+        
         
     }
+    
+  
+    
     
 
     
@@ -109,5 +127,82 @@ class YJMainViewController: YJBaseTableViewController,YJMainVisitorViewDelegate 
         
         
     }
+    
+    //MARK:请求数据
+    private func loadNewData() {
+    
+        let path = "https://api.weibo.com/2/statuses/public_timeline.json"
+        let para = ["access_token":YJUserAccount.loadAccount()?.access_token as!AnyObject]
+        Alamofire.request(.GET, path, parameters: para, encoding:.URL, headers: nil).responseJSON { (respon) in
+            
+            
+            print(respon.result)
+            
+            if let json = respon.result.value {
+            
+//                print(json)
+                
+                let dict = json as![String:AnyObject]
+                
+                let arr = dict["statuses"] as![AnyObject]
+                
+                for dic in arr as![[String:AnyObject]]{
+                
+                    let status = YJStatus(dict:dic)
+                    
+                    
+                    self.statusArry.append(status)
+                    
+                }
+                
+                self.tableView.reloadData()
+                
+                
+            }
+            
+        }
+        
+    }
+    
    
+}
+
+extension YJMainViewController{
+
+    //
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return statusArry.count
+        
+       
+    }
+    
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let  cell = tableView.dequeueReusableCellWithIdentifier(resuesID) as! YJStatusCell
+        
+     
+       
+        
+        let  status = statusArry[indexPath.row]
+        cell.status = status
+      
+        return cell
+    }
+    
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        
+        return 320
+    }
+    
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        print("点击事件了")
+    }
+    
+    
+    
 }

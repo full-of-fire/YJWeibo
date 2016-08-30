@@ -15,6 +15,12 @@
 		0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */; };
 		0B2B43461D6616A200AE7674 /* YJMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B43451D6616A200AE7674 /* YJMineViewController.swift */; };
 		0B384C921D6B439100060F4A /* YJQRCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B384C911D6B439100060F4A /* YJQRCardViewController.swift */; };
+		0B875BFE1D75B28800AE2138 /* YJStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875BFD1D75B28800AE2138 /* YJStatus.swift */; };
+		0B875C001D75B2B500AE2138 /* YJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875BFF1D75B2B500AE2138 /* YJUser.swift */; };
+		0B875C021D75B3FF00AE2138 /* YJStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875C011D75B3FF00AE2138 /* YJStatusCell.swift */; };
+		0B875C041D75CEBB00AE2138 /* YJStatusBottomToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875C031D75CEBB00AE2138 /* YJStatusBottomToolBar.swift */; };
+		0B875C081D75CF6800AE2138 /* YJStatusBottomToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B875C071D75CF6800AE2138 /* YJStatusBottomToolBar.xib */; };
+		0B875C0A1D75D71D00AE2138 /* YJPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875C091D75D71D00AE2138 /* YJPictureView.swift */; };
 		0B9912F71D6DD1B600BAC781 /* YJLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */; };
 		0B9912F91D6DF77100BAC781 /* YJUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */; };
 		0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */; };
@@ -62,6 +68,12 @@
 		0B2B43431D66165A00AE7674 /* YJComposeMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJComposeMessageViewController.swift; sourceTree = "<group>"; };
 		0B2B43451D6616A200AE7674 /* YJMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMineViewController.swift; sourceTree = "<group>"; };
 		0B384C911D6B439100060F4A /* YJQRCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJQRCardViewController.swift; sourceTree = "<group>"; };
+		0B875BFD1D75B28800AE2138 /* YJStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJStatus.swift; path = YJWeibo/Classes/Main/Controllers/YJStatus.swift; sourceTree = SOURCE_ROOT; };
+		0B875BFF1D75B2B500AE2138 /* YJUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJUser.swift; path = YJWeibo/Classes/Main/Controllers/YJUser.swift; sourceTree = SOURCE_ROOT; };
+		0B875C011D75B3FF00AE2138 /* YJStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJStatusCell.swift; path = YJWeibo/Classes/Main/Controllers/YJStatusCell.swift; sourceTree = SOURCE_ROOT; };
+		0B875C031D75CEBB00AE2138 /* YJStatusBottomToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJStatusBottomToolBar.swift; path = YJWeibo/Classes/Main/Controllers/YJStatusBottomToolBar.swift; sourceTree = SOURCE_ROOT; };
+		0B875C071D75CF6800AE2138 /* YJStatusBottomToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJStatusBottomToolBar.xib; path = YJWeibo/Classes/Main/Controllers/YJStatusBottomToolBar.xib; sourceTree = SOURCE_ROOT; };
+		0B875C091D75D71D00AE2138 /* YJPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJPictureView.swift; path = YJWeibo/Classes/Main/Controllers/YJPictureView.swift; sourceTree = SOURCE_ROOT; };
 		0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJLoginViewController.swift; sourceTree = "<group>"; };
 		0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJUserAccount.swift; path = YJWeibo/Classes/Main/Controllers/YJUserAccount.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMainVisitorView.swift; path = YJWeibo/Classes/Base/YJMainVisitorView.swift; sourceTree = SOURCE_ROOT; };
@@ -248,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				0B9912F81D6DF77100BAC781 /* YJUserAccount.swift */,
+				0B875BFD1D75B28800AE2138 /* YJStatus.swift */,
+				0B875BFF1D75B2B500AE2138 /* YJUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +271,10 @@
 			children = (
 				0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */,
 				0BF27E8C1D699AE40085F55A /* YJTitleButton.swift */,
+				0B875C011D75B3FF00AE2138 /* YJStatusCell.swift */,
+				0B875C091D75D71D00AE2138 /* YJPictureView.swift */,
+				0B875C031D75CEBB00AE2138 /* YJStatusBottomToolBar.swift */,
+				0B875C071D75CF6800AE2138 /* YJStatusBottomToolBar.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -532,6 +550,7 @@
 				0BF27E931D69A0C10085F55A /* YJQCRScannerViewController.storyboard in Resources */,
 				0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */,
 				397A86711D655D610063329A /* LaunchScreen.storyboard in Resources */,
+				0B875C081D75CF6800AE2138 /* YJStatusBottomToolBar.xib in Resources */,
 				397A866E1D655D610063329A /* Assets.xcassets in Resources */,
 				0BE7CEF41D661986004C3F92 /* localSettings.json in Resources */,
 			);
@@ -686,13 +705,18 @@
 				0B2B433C1D66162100AE7674 /* YJBaseNaviViewController.swift in Sources */,
 				0B9912F91D6DF77100BAC781 /* YJUserAccount.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
+				0B875C001D75B2B500AE2138 /* YJUser.swift in Sources */,
 				0BF27E8D1D699AE40085F55A /* YJTitleButton.swift in Sources */,
+				0B875C041D75CEBB00AE2138 /* YJStatusBottomToolBar.swift in Sources */,
 				0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */,
+				0B875C021D75B3FF00AE2138 /* YJStatusCell.swift in Sources */,
 				0B2B433D1D66162100AE7674 /* YJBaseTabBarViewController.swift in Sources */,
 				0B2B433E1D66162100AE7674 /* YJBaseTableViewController.swift in Sources */,
+				0B875C0A1D75D71D00AE2138 /* YJPictureView.swift in Sources */,
 				0B2B43401D66163B00AE7674 /* YJMainViewController.swift in Sources */,
 				0BF27E8B1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift in Sources */,
 				0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */,
+				0B875BFE1D75B28800AE2138 /* YJStatus.swift in Sources */,
 				0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */,
 				0B2B43441D66165A00AE7674 /* YJComposeMessageViewController.swift in Sources */,
 				0BF27E951D69A1420085F55A /* YJQCRScannerViewController.swift in Sources */,

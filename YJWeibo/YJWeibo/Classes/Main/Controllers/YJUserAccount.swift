@@ -62,8 +62,7 @@ class YJUserAccount: NSObject,NSCoding{
     internal class func loadAccount() -> YJUserAccount? {
         let path = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).last
         
-        
-            
+    
         let archievePath = path!.stringByAppendingString("/account.plist")
             
         let userAccoutn = NSKeyedUnarchiver.unarchiveObjectWithFile(archievePath) as? YJUserAccount

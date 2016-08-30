@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YJStatusBottomToolBar" customModule="YJWeibo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dv-4X-qhj">
+                    <rect key="frame" x="0.0" y="0.0" width="106.5" height="44"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2P-Pf-6In">
+                    <rect key="frame" x="106.5" y="0.0" width="107" height="44"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rav-Lr-v7m">
+                    <rect key="frame" x="213.5" y="0.0" width="106.5" height="44"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="E2P-Pf-6In" firstAttribute="leading" secondItem="7Dv-4X-qhj" secondAttribute="trailing" id="70v-bN-cXH"/>
+                <constraint firstItem="Rav-Lr-v7m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Asa-En-rkc"/>
+                <constraint firstItem="E2P-Pf-6In" firstAttribute="width" secondItem="7Dv-4X-qhj" secondAttribute="width" id="FTd-Ud-Gzd"/>
+                <constraint firstAttribute="bottom" secondItem="E2P-Pf-6In" secondAttribute="bottom" id="IUD-rS-tWf"/>
+                <constraint firstItem="7Dv-4X-qhj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IVi-r3-rpt"/>
+                <constraint firstItem="Rav-Lr-v7m" firstAttribute="leading" secondItem="E2P-Pf-6In" secondAttribute="trailing" id="LE4-Mp-NK4"/>
+                <constraint firstItem="7Dv-4X-qhj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LPJ-8K-7D9"/>
+                <constraint firstItem="Rav-Lr-v7m" firstAttribute="width" secondItem="7Dv-4X-qhj" secondAttribute="width" id="S55-kl-m2D"/>
+                <constraint firstAttribute="trailing" secondItem="Rav-Lr-v7m" secondAttribute="trailing" id="b41-d9-fPB"/>
+                <constraint firstItem="E2P-Pf-6In" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="g3m-RM-las"/>
+                <constraint firstAttribute="bottom" secondItem="7Dv-4X-qhj" secondAttribute="bottom" id="kbb-PA-VQR"/>
+                <constraint firstAttribute="bottom" secondItem="Rav-Lr-v7m" secondAttribute="bottom" id="pIO-2b-Mbk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

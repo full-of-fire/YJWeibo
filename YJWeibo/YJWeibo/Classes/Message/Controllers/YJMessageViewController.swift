@@ -15,6 +15,7 @@ class YJMessageViewController: YJBaseTableViewController {
 
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,11 +42,6 @@ class YJMessageViewController: YJBaseTableViewController {
     }
     
     
-    
-    //M
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0;
-    }
     
   
 
