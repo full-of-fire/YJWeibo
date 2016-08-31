@@ -148,6 +148,8 @@ class YJMainViewController: YJBaseTableViewController,YJMainVisitorViewDelegate 
                 
                 for dic in arr as![[String:AnyObject]]{
                 
+                    
+                    
                     let status = YJStatus(dict:dic)
                     
                     

@@ -26,6 +26,30 @@ class YJStatusCell: UITableViewCell {
             
             userIconImageView.sd_setImageWithURL(status?.user!.iconURL)
             nickNameLabel.text = status?.user?.name
+            
+            var imageURLs = [NSURL]()
+            if let realPics = status?.pic_urls {
+                
+                for dict  in realPics {
+                
+                    let thubUrl = dict["thumbnail_pic"]
+                    
+                    if let urlString = thubUrl {
+                    
+                        let url = NSURL(string: urlString as! String)
+                        
+                        print("url = \(url?.absoluteString)")
+                        
+                        imageURLs.append(url!)
+                    }
+                    
+                }
+            }
+            
+            //给图片赋值
+            pictureView.imageURLS = imageURLs
+            
+            
         }
     }
     
@@ -37,6 +61,7 @@ class YJStatusCell: UITableViewCell {
         //初始化界面
         setUpUI()
         
+        self.selectionStyle = UITableViewCellSelectionStyle.None
         userIconImageView.backgroundColor = UIColor.redColor()
         
         nickNameLabel.text = "大杰哥的微博"
@@ -132,7 +157,7 @@ class YJStatusCell: UITableViewCell {
     }
     
     //懒加载
-   lazy  var userIconImageView:UIImageView = {
+  private lazy  var userIconImageView:UIImageView = {
     
         let image = UIImageView()
         
@@ -140,14 +165,14 @@ class YJStatusCell: UITableViewCell {
         
     }()
     
-    lazy var nickNameLabel:UILabel = {
+   private lazy var nickNameLabel:UILabel = {
     
         let label = UILabel()
         
         return label
     }()
     
-    var crateTimeLabel:UILabel = {
+    private var crateTimeLabel:UILabel = {
     
        
         let label = UILabel()
@@ -156,14 +181,14 @@ class YJStatusCell: UITableViewCell {
     }()
     
     
-   lazy var sourceLabel:UILabel = {
+   private lazy var sourceLabel:UILabel = {
     
         let label = UILabel()
         
         return label
     }()
     
-   lazy var contentLabel:UILabel = {
+   private lazy var contentLabel:UILabel = {
     
         
         let label = UILabel()
@@ -174,10 +199,10 @@ class YJStatusCell: UITableViewCell {
         return label
     }()
     
-    lazy var pictureView:YJPictureView = YJPictureView()
+    private lazy var pictureView:YJPictureView = YJPictureView()
     
     
-    lazy var bottomToolBar:YJStatusBottomToolBar = YJStatusBottomToolBar.statusBottomToolBar()
+    private lazy var bottomToolBar:YJStatusBottomToolBar = YJStatusBottomToolBar.statusBottomToolBar()
     
     
     
