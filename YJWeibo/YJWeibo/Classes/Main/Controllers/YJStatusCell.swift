@@ -8,16 +8,28 @@
 
 import UIKit
 import SDWebImage
+import SnapKit
+
+
 
 class YJStatusCell: UITableViewCell {
 
+    
+    // 宽度约束
+    
+    var pictureWidthCons:ConstraintDescriptionEditable?
+    
+    var pictureHeighCons:ConstraintDescriptionEditable?
+    
+  
+    
     
     //微博模型
     var status:YJStatus?{
     
         didSet {
         
-            //在这里复制
+            //在这里赋值
             sourceLabel.text = status?.source
             
             contentLabel.text  = status?.text
@@ -27,31 +39,24 @@ class YJStatusCell: UITableViewCell {
             userIconImageView.sd_setImageWithURL(status?.user!.iconURL)
             nickNameLabel.text = status?.user?.name
             
-            var imageURLs = [NSURL]()
-            if let realPics = status?.pic_urls {
-                
-                for dict  in realPics {
-                
-                    let thubUrl = dict["thumbnail_pic"]
-                    
-                    if let urlString = thubUrl {
-                    
-                        let url = NSURL(string: urlString as! String)
-                        
-                        print("url = \(url?.absoluteString)")
-                        
-                        imageURLs.append(url!)
-                    }
-                    
-                }
-            }
             
-            //给图片赋值
-            pictureView.imageURLS = imageURLs
+            //给缩略图片赋值
+            pictureView.imageURLS = status!.thumbURLs
             
+            // 赋值给大图
+            pictureView.largeURLs = status!.largeURLs
             
+            //图片赋值完后计算图片大小，更新约束
+            let size = pictureView.calPictureSize()
+            
+            print(size)
+
+            self.pictureHeighCons?.constraint.updateOffset(size.height)
+            self.pictureWidthCons?.constraint.updateOffset(size.width)
         }
     }
+    
+    
     
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -72,9 +77,27 @@ class YJStatusCell: UITableViewCell {
     }
     
     
-    //MARK:布局
-    override func layoutSubviews() {
-        super.layoutSubviews()
+   
+    
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    //MARK:初始化界面
+    private func setUpUI () {
+    
+        
+        addSubview(userIconImageView)
+        addSubview(nickNameLabel)
+        addSubview(crateTimeLabel)
+        addSubview(sourceLabel)
+        addSubview(contentLabel)
+        addSubview(pictureView)
+        pictureView.backgroundColor = UIColor.yj_color(248, G: 248, B: 248)
+        bottomToolBar.backgroundColor = UIColor.yj_color(248, G: 248, B: 248)
+        addSubview(bottomToolBar)
+        
         
         userIconImageView.snp_makeConstraints { (make) in
             
@@ -100,60 +123,50 @@ class YJStatusCell: UITableViewCell {
             
             make.left.equalTo(self.crateTimeLabel.snp_right).offset(10)
             make.bottom.equalTo(self.crateTimeLabel.snp_bottom)
+            
         }
         
-        
-        
-       
-       
+        // 内容
         contentLabel.snp_makeConstraints { (make) in
             
             make.top.equalTo(self.userIconImageView.snp_bottom).offset(10)
             make.left.equalTo(self).offset(10)
-           
+            
         }
+        
+        
         
         pictureView.snp_makeConstraints { (make) in
             make.top.equalTo(self.contentLabel.snp_bottom).offset(10)
             make.left.equalTo(self).offset(10)
-            make.size.equalTo(CGSizeMake(100, 100))
+            self.pictureWidthCons = make.width.equalTo(10)
+            self.pictureHeighCons =  make.height.equalTo(10)
         }
         
         
         bottomToolBar.snp_makeConstraints { (make) in
             
-            make.bottom.equalTo(self)
+            make.top.equalTo(self.pictureView.snp_bottom).offset(10)
             make.left.equalTo(self)
             make.right.equalTo(self)
-            make.top.equalTo(pictureView.snp_bottom).offset(10)
+            make.height.equalTo(44)
             
         }
+
        
-        
        
+    
     }
     
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    //MARK:初始化界面
-    private func setUpUI () {
+    // MARK:计算cell的高度
+    func getCellHeight(status:YJStatus) -> CGFloat {
+        
+        self.status = status
+        
+        layoutIfNeeded()
     
         
-        addSubview(userIconImageView)
-        addSubview(nickNameLabel)
-        addSubview(crateTimeLabel)
-        addSubview(sourceLabel)
-        addSubview(contentLabel)
-        addSubview(pictureView)
-        pictureView.backgroundColor = UIColor.redColor()
-        addSubview(bottomToolBar)
-        
-       
-       
-    
+        return CGRectGetMaxY(bottomToolBar.frame);
     }
     
     //懒加载
@@ -184,6 +197,7 @@ class YJStatusCell: UITableViewCell {
    private lazy var sourceLabel:UILabel = {
     
         let label = UILabel()
+
         
         return label
     }()

@@ -1,0 +1,6 @@
+framework module Pods_YJWeiboUITests {
+  umbrella header "Pods-YJWeiboUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

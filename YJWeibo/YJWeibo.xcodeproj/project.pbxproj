@@ -26,6 +26,8 @@
 		0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */; };
 		0B9B18341D684A3C0067E298 /* YJMessageVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */; };
 		0B9B18361D684AB90067E298 /* YJMessageVisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */; };
+		0BA441BF1D79DCF3005D8919 /* UIColor+YJAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA441BE1D79DCF3005D8919 /* UIColor+YJAdd.swift */; };
+		0BA441C11D7A91EC005D8919 /* YJPhotoBrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA441C01D7A91EC005D8919 /* YJPhotoBrowseViewController.swift */; };
 		0BE7CEF21D6616E6004C3F92 /* YJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */; };
 		0BE7CEF41D661986004C3F92 /* localSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BE7CEF31D661986004C3F92 /* localSettings.json */; };
 		0BF27E8B1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF27E8A1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift */; };
@@ -79,6 +81,8 @@
 		0B9B18311D68269E0067E298 /* YJMainVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMainVisitorView.swift; path = YJWeibo/Classes/Base/YJMainVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18331D684A3C0067E298 /* YJMessageVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YJMessageVisitorView.swift; path = YJWeibo/Classes/Base/YJMessageVisitorView.swift; sourceTree = SOURCE_ROOT; };
 		0B9B18351D684AB90067E298 /* YJMessageVisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YJMessageVisitorView.xib; path = YJWeibo/Classes/Base/YJMessageVisitorView.xib; sourceTree = SOURCE_ROOT; };
+		0BA441BE1D79DCF3005D8919 /* UIColor+YJAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+YJAdd.swift"; path = "YJWeibo/Classes/Main/Controllers/UIColor+YJAdd.swift"; sourceTree = SOURCE_ROOT; };
+		0BA441C01D7A91EC005D8919 /* YJPhotoBrowseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJPhotoBrowseViewController.swift; sourceTree = "<group>"; };
 		0BE7CEF11D6616E6004C3F92 /* YJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJAttentionViewController.swift; sourceTree = "<group>"; };
 		0BE7CEF31D661986004C3F92 /* localSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = localSettings.json; sourceTree = "<group>"; };
 		0BF27E8A1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+YJAdd.swift"; sourceTree = SOURCE_ROOT; };
@@ -198,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				0BF27E8A1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift */,
+				0BA441BE1D79DCF3005D8919 /* UIColor+YJAdd.swift */,
 			);
 			path = Catagory;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				0BF27E941D69A1420085F55A /* YJQCRScannerViewController.swift */,
 				0B384C911D6B439100060F4A /* YJQRCardViewController.swift */,
 				0B9912F61D6DD1B600BAC781 /* YJLoginViewController.swift */,
+				0BA441C01D7A91EC005D8919 /* YJPhotoBrowseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -706,6 +712,7 @@
 				0B9912F91D6DF77100BAC781 /* YJUserAccount.swift in Sources */,
 				397A86671D655D610063329A /* AppDelegate.swift in Sources */,
 				0B875C001D75B2B500AE2138 /* YJUser.swift in Sources */,
+				0BA441C11D7A91EC005D8919 /* YJPhotoBrowseViewController.swift in Sources */,
 				0BF27E8D1D699AE40085F55A /* YJTitleButton.swift in Sources */,
 				0B875C041D75CEBB00AE2138 /* YJStatusBottomToolBar.swift in Sources */,
 				0B9B18321D68269E0067E298 /* YJMainVisitorView.swift in Sources */,
@@ -714,6 +721,7 @@
 				0B2B433E1D66162100AE7674 /* YJBaseTableViewController.swift in Sources */,
 				0B875C0A1D75D71D00AE2138 /* YJPictureView.swift in Sources */,
 				0B2B43401D66163B00AE7674 /* YJMainViewController.swift in Sources */,
+				0BA441BF1D79DCF3005D8919 /* UIColor+YJAdd.swift in Sources */,
 				0BF27E8B1D6996DA0085F55A /* UIBarButtonItem+YJAdd.swift in Sources */,
 				0B2B43421D66164800AE7674 /* YJMessageViewController.swift in Sources */,
 				0B875BFE1D75B28800AE2138 /* YJStatus.swift in Sources */,

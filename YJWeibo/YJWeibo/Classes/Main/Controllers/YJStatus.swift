@@ -111,10 +111,57 @@ class YJStatus: NSObject {
     }
     
     /// 配图数组
-    var pic_urls: [[String: AnyObject]]?
+    var pic_urls: [[String: AnyObject]]? {
+    
+        didSet {
+        
+            
+            var imageURLs = [NSURL]()
+            var picLargeURLs = [NSURL]()
+            if let realPics = pic_urls {
+                
+                for dict  in realPics {
+                    
+                    let thubUrl = dict["thumbnail_pic"]
+                    
+                    if let urlString = thubUrl {
+                        
+                        
+                        // 给缩略图
+                        
+                        let thumbURLString =   urlString as! String
+                        let url = NSURL(string: thumbURLString)
+                        imageURLs.append(url!)
+                        
+                     
+                        let largeURLString = thumbURLString.stringByReplacingOccurrencesOfString("thumbnail", withString: "large")
+                        
+                        
+                        picLargeURLs.append(NSURL(string: largeURLString)!)
+                    }
+                    
+                }
+                
+                thumbURLs = imageURLs
+                largeURLs = picLargeURLs
+                
+                
+            }
+            
+        }
+    }
+    
+    
+    // 保存缩略图的地址
+    var thumbURLs:[NSURL]?
+    
+    // 保存大图的地址
+    var largeURLs:[NSURL]?
     
     /// 用户信息
     var user: YJUser?
+    
+  
     
     
     init(dict: [String:AnyObject]) {
